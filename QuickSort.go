@@ -19,9 +19,7 @@ func quickSort(array []int, start, end int) {
 		//添加=的意思是将最后的基准点调整到小于
 		//和大于它的中间
 		if array[j] <= array[s] {
-			if i+1 != j {
-				array[i+1], array[j] = array[j], array[i+1]
-			}
+			array[i+1], array[j] = array[j], array[i+1]
 			i++
 		}
 		j++
