@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-func quickSort(array []int, start int, end int) {
+func quickSort(array []int, start, end int) {
 	if start >= end {
 		return
 	}
